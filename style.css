@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 20px;
+}
+
+.email {
+    width: 40%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    box-shadow: 10px 10px #d2f3c8,
+        10px 10px 0px 2px black;
+}
+.header-email {
+    background-color: #d2f3c8;
+    border-bottom: 2px solid;
+    padding: 10px 20px;
+}
+.mail {
+    width: 80%;
+    text-align: center;
+    padding: 40px 40px;
+    margin: 20px auto; 
+    border-radius: 5px;
+    background-color: #d2f3c8;
+    transition: transform .2s;
+}
+.mail:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.facebook {
+    width: 40%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 10px 10px #faf9b5,
+        10px 10px 0px 2px black;
+}
+.header-facebook {
+    background-color: #004aad;
+    border-bottom: 2px solid;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.message {
+    width: 220px;
+    height: 160px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #004aad;
+    display: inline-block;
+    color: white;
+    transition: transform .2s;
+    vertical-align: middle;
+}
+.message:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.profile-pic {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.message-preview {
+    line-height: 150%;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    margin-top: -40px;
+}
+
+
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    margin: 5px;
+}
+#close {
+    background-color: #f7b2b0;
+}
+#min {
+    background-color: #f9c374;
+}
+#max {
+    background-color: #c3f7e7;
+}
