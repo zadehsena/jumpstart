@@ -145,8 +145,26 @@ button {
         10px 10px 0px 2px black;
     background-color: #e6f7fe;
 }
+.quiz-question {
+    width: 30%;
+    padding: 80px;
+    margin: 50px;
+    line-height: 200%;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    box-shadow: 10px 10px #faf9b5,
+        10px 10px 0px 2px black;
+    background-color: #e6f7fe;
+}
+.answer-choice {
+    padding: 10px 30px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
 
-
+}
 
 
 
@@ -169,3 +187,6 @@ button {
 #max {
     background-color: #c3f7e7;
 }
+
+
+
