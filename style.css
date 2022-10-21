@@ -37,8 +37,34 @@ button {
     border-radius: 10px;
     background-color: white;
 }
-
-
+.home {
+    padding-top: 120px;
+    background-color: #83ccef;
+}
+.phishing-types {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    gap: 20px;
+    background-color: #83ccef;
+}
+.phishing-type {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400px;
+    box-shadow: 8px 8px #faf9b5,
+        8px 8px 0px 1px black;
+    transition: transform .2s;
+}
+.phishing-type:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
 
 
 
@@ -167,26 +193,6 @@ button {
 }
 
 
-
-
-
-.phishing-types {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 50px;
-    gap: 20px;
-    background-color: #83ccef;
-}
-.phishing-type {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
-    padding: 20px;
-    width: 80%;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 400px;
-}
 
 
 
